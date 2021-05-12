@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+html {
+  height: 100%;
+}
+
+@font-face {
+  font-family: 's-marugo';
+  src: url('smg.otf') format('opentype');
+}
+
+body {
+  font-family: "s-marugo", sans-serif;
+  background:rgba(0, 255, 0, 1);
+  color:#222222;
+}
+
+.container {
+
+}
+
+section {
+  margin-top:100px;
+  margin-left:50px;
+}
+
+h1 {
+}
+
+.title1{
+  display: block;
+  float: left;
+  position: relative;
+  opacity:1;
+  font-size:40px;
+}
+.title1 span{
+  display: block;
+  float: left;
+  min-width: 10px;
+  min-height: 10px;
+  position: relative;
+}
